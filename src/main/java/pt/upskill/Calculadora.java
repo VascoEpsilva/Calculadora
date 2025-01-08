@@ -21,7 +21,7 @@ public class Calculadora {
         return (d1 - d2);
     }
 
-    public double divisão(double d1, double d2) {
+    public double divisao(double d1, double d2) {
         return (d1 / d2);
     }
 
