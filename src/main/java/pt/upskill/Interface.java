@@ -42,18 +42,18 @@ public class Interface {
                     break;
                 case (2):
                     askTwoDigits();
-                    System.out.println(calculadora.digit1 + "-" + calculadora.digit2 + "=" + calculadora.subtração(calculadora.digit1, calculadora.digit2));
+                    System.out.println(calculadora.digit1 + "-" + calculadora.digit2 + "=" + calculadora.subtracao(calculadora.digit1, calculadora.digit2));
                     break;
                 case (3):
                     askTwoDigits();
-                    System.out.println(calculadora.digit1 + "*" + calculadora.digit2 + "=" + calculadora.multiplicação(calculadora.digit1, calculadora.digit2));
+                    System.out.println(calculadora.digit1 + "*" + calculadora.digit2 + "=" + calculadora.multiplicacao(calculadora.digit1, calculadora.digit2));
                     break;
                 case (4):
                     askTwoDigits();
                     if(calculadora.digit2 == 0)
                         System.out.println(calculadora.digit1 + "/" + calculadora.digit2 + "\nError: Calculo Impossível");
                     else
-                        System.out.println(calculadora.digit1 + "/" + calculadora.digit2 + "=" + calculadora.divisão(calculadora.digit1, calculadora.digit2));
+                        System.out.println(calculadora.digit1 + "/" + calculadora.digit2 + "=" + calculadora.divisao(calculadora.digit1, calculadora.digit2));
                     break;
                 case (5):
                     askTwoDigits();
