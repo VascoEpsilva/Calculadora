@@ -3,8 +3,6 @@ package pt.upskill;
 public class Calculadora {
 
     private double resultado;
-    public double digit1;
-    public double digit2;
 
     public Calculadora() {
     }
@@ -53,5 +51,17 @@ public class Calculadora {
         for(int i = x; i != 1; i--)
             res = res * i;
         return res;
+    }
+
+    public boolean ePrimo(int num){
+        if (num <= 1){
+            return false;
+        }
+        for (int i = 2; i <= Math.sqrt(num); i++) {
+            if (num % i == 0){
+                return false;
+            }
+        }
+        return true;
     }
 }
