@@ -13,7 +13,7 @@ public class Calculadora {
         return (d1 + d2);
     }
 
-    public double multiplicação(double d1, double d2) {
+    public double multiplicacao(double d1, double d2) {
         return (d1 * d2);
     }
 
@@ -65,5 +65,18 @@ public class Calculadora {
             }
         }
         return true;
+    }
+
+    public boolean isSomaCubosDosDigitos(int numero) {
+        int soma = 0;
+        int original = numero;
+
+        while (numero > 0) {
+            int digito = numero % 10;
+            soma += (int) Math.pow(digito, 3);
+            numero /= 10;
+        }
+
+        return soma == original;
     }
 }
