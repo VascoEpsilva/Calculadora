@@ -44,7 +44,7 @@ public class Calculadora {
             return 1;
     }
 
-    public double fatorial(int x) {
+    public static double fatorial(int x) {
         double res = 1;
         if(x < 0)
             throw new IllegalArgumentException("Não é possível calcular o fatorial deste número");
