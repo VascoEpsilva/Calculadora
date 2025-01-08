@@ -68,6 +68,12 @@ public class Interface {
                     break;
                 case (8):
                     askOneDigit();
+                    int numero = (int) calculadora.digit1;
+                    if (calculadora.isSomaCubosDosDigitos(numero)) {
+                    System.out.println(calculadora.digit1 + " é igual à soma dos cubos dos seus dígitos.");
+                    } else {
+                    System.out.println(calculadora.digit1 + " não é igual à soma dos cubos dos seus dígitos.");
+                     }
                     break;
                 case (9):
                     askOneDigit();
