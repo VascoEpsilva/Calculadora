@@ -1,7 +1,7 @@
 package pt.upskill;
 import static org.junit.jupiter.api.Assertions.*;
 
-class CalculadoraTest {
+class SubtracaoTest {
 
     @org.junit.jupiter.api.Test
     void subtracao() {
