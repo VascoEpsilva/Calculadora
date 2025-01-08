@@ -17,7 +17,7 @@ public class Calculadora {
         return (d1 * d2);
     }
 
-    public double subtração(double d1, double d2) {
+    public double subtracao(double d1, double d2) {
         return (d1 - d2);
     }
 
