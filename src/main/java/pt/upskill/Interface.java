@@ -78,7 +78,7 @@ public class Interface {
                     if(bin.matches("[10]*"))
                         System.out.println(Integer.parseInt(bin, 2));
                     else
-                        System.out.println("Error: Conversão Impossível. \nNúmero introduzido não é bnário.");
+                        System.out.println("Error: Conversão Impossível. \nNúmero introduzido não é binário.");
                     break;
                 case (11):
                     askOneDigit();

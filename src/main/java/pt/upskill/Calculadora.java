@@ -3,6 +3,8 @@ package pt.upskill;
 public class Calculadora {
 
     private double resultado;
+    private double digit1;
+    private double digit2;
 
     public Calculadora() {
     }
