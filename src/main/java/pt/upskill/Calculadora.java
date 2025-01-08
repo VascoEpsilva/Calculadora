@@ -73,7 +73,7 @@ public class Calculadora {
 
         while (numero > 0) {
             int digito = numero % 10;
-            soma += Math.pow(digito, 3);
+            soma += (int) Math.pow(digito, 3);
             numero /= 10;
         }
 
