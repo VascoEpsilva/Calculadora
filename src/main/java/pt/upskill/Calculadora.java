@@ -11,15 +11,15 @@ public class Calculadora {
         return (d1 + d2);
     }
 
-    public double multiplicação(double d1, double d2) {
+    public double multiplicacao(double d1, double d2) {
         return (d1 * d2);
     }
 
-    public double subtração(double d1, double d2) {
+    public double subtracao(double d1, double d2) {
         return (d1 - d2);
     }
 
-    public double divisão(double d1, double d2) {
+    public double divisao(double d1, double d2) {
         return (d1 / d2);
     }
 
