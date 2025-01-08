@@ -66,4 +66,17 @@ public class Calculadora {
         }
         return true;
     }
+
+    public boolean isSomaCubosDosDigitos(int numero) {
+        int soma = 0;
+        int original = numero;
+
+        while (numero > 0) {
+            int digito = numero % 10;
+            soma += Math.pow(digito, 3);
+            numero /= 10;
+        }
+
+        return soma == original;
+    }
 }
